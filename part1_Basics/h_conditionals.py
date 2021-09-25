@@ -35,6 +35,8 @@ city_2_unemployment_rate = 7.4
 city_3_name = 'Amsterdam'
 city_3_population = 2431000
 city_3_unemployment_rate = 3.3
+city_4_name = 'Bengaluru'
+city_4_population = 
 
 # note: Mind the indented structure of if clauses. It matters!!!!
 
@@ -72,7 +74,6 @@ elif (city_3_population > city_1_population) & (city_3_population > city_2_popul
 else:
     result = 'We could not identify which city is bigger'
 print(result)
-
 
 # if, if elif and if else classes can be nested. Indentation plays the main role here
 if city_1_population > city_2_population:
